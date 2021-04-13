@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Error = () => {
   return (
     <div>
-      <h2>error page</h2>
+      <h2>エラーページ</h2>
     </div>
   )
 }

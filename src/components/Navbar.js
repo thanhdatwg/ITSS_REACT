@@ -10,10 +10,10 @@ export default function Navbar() {
         </Link>
         <ul className="nav-links">
           <li>
-            <Link to="/">home</Link>
+            <Link to="/">ホーム</Link>
           </li>
           <li>
-            <Link to="/about">about</Link>
+            <Link to="/about">約</Link>
           </li>
         </ul>
       </div>

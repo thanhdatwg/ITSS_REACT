@@ -11,7 +11,7 @@ export default function CocktailList() {
   if (cocktails.length < 1) {
     return (
       <h2 className="section-title">
-        no cocktails matched your search criteria
+        検索条件に一致するカクテルはありません
       </h2>
     );
   }

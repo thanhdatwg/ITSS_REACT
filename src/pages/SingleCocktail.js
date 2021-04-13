@@ -60,7 +60,7 @@ export default function SingleCocktail() {
     return <Loading/>
   }
   if (!cocktail) {
-    return <h2 className='section-title'>no cocktail to display</h2>
+    return <h2 className='section-title'>表示するカクテルはありません</h2>
   } else {
     const {
       name,
@@ -81,19 +81,19 @@ export default function SingleCocktail() {
           <img src={image} alt={name}></img>
           <div className='drink-info'>
             <p>
-              <span className='drink-data'>name :</span> {name}
+              <span className='drink-data'>名前 :</span> {name}
             </p>
             <p>
-              <span className='drink-data'>category :</span> {category}
+              <span className='drink-data'>カテゴリー :</span> {category}
             </p>
             <p>
-              <span className='drink-data'>info :</span> {info}
+              <span className='drink-data'>情報 :</span> {info}
             </p>
             <p>
-              <span className='drink-data'>glass :</span> {glass}
+              <span className='drink-data'>ガラス :</span> {glass}
             </p>
             <p>
-              <span className='drink-data'>instructons :</span> {instructions}
+              <span className='drink-data'>指示 :</span> {instructions}
             </p>
             <p>
               <span className='drink-data'>ingredients :</span>

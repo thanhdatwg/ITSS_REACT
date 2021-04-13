@@ -1,13 +1,9 @@
-import React from 'react'
-import CocktailList from '../components/CocktailList'
-import SearchForm from '../components/SearchForm'
-
-const Home = () => {
+import React from "react";
+import CocktailList from "../components/CocktailList";
+export default function Home() {
   return (
-    <div>
-      <h2>home page</h2>
-    </div>
-  )
+    <main>
+      <CocktailList />
+    </main>
+  );
 }
-
-export default Home

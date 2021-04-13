@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Member from '../components/Member';
 
-const About = () => {
-  return (
-    <div>
-      <h2>ページについて</h2>
-    </div>
+function About() {
+  return(
+    <main>
+      <Member/>
+    </main>
   )
 }
 
-export default About
+export default About;

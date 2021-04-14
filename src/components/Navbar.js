@@ -13,7 +13,7 @@ export default function Navbar() {
             <Link to="/">ホーム</Link>
           </li>
           <li>
-            <Link to="/about">約</Link>
+            <Link to="/about">メンバー</Link>
           </li>
         </ul>
       </div>
